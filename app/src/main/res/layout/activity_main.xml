@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textColor="#f09"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:text="Bye World!"
+        android:textColor="#f10"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="428dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome to World"
+        android:textColor="#f06"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="423dp"
+        android:layout_height="wrap_content"
+        android:text="@string/msg"
+        android:textColor="#f06"
+        android:textSize="30dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/th"
+        android:layout_width="421dp"
+        android:layout_height="422dp"
+        app:srcCompat="@drawable/th" />
+</LinearLayout>
